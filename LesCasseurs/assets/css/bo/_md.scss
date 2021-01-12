@@ -1,0 +1,178 @@
+@media screen and ( min-width: 768px) {
+
+  .pagination {
+    .page-link {
+      font-size: 14px;
+    }
+  }
+
+
+  #login {
+
+    #main {
+      padding: 100px 0 0;
+
+      >.container {
+        margin-left: auto;
+      }
+    }
+
+  }
+
+  #nav-sidebar {
+
+    .navbar-nav {
+
+      .nav-item {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+
+        > .nav-link {
+          font-size: 18px;
+          padding: 25px 5px !important;
+
+          i {
+            font-size: 30px;
+            margin-bottom: 10px;
+          }
+        }
+
+
+        &:first-child() {
+          flex: 0 0 100%;
+          max-width: 100%;
+          border: none;
+        }
+
+        &:nth-child(2n+1) {
+          border-right: 1px solid #6d6d6d;
+        }
+
+        &:nth-child(3n+1) {
+          border-right: none;
+        }
+
+      }
+
+    }
+
+  }
+
+
+  .dashboard {
+
+    .panel {
+
+      .btn-group {
+        display: inline-flex;
+
+        .label {
+          font-size: 18px;
+        }
+      }
+
+
+      &.admin {
+        .overview {
+
+          > div {
+
+            &:nth-child(2n+1) {
+              &::before {
+                display: block;
+              }
+            }
+
+            &:nth-child(3n+1) {
+              &::before {
+                display: none;
+              }
+            }
+
+          }
+        }
+      }
+
+      .null {
+
+        > div {
+
+          &:nth-child(2n+1) {
+            &::before {
+              display: block;
+            }
+          }
+
+          &:nth-child(n+5) {
+            &::after {
+              display: block;
+            }
+          }
+
+          &:nth-child(3n+1) {
+            &::before {
+              display: none;
+            }
+          }
+
+          &:nth-child(n+4) {
+            &::after {
+              display: none;
+            }
+          }
+
+        }
+      }
+
+    }
+
+
+  }
+
+  table {
+
+    &.list {
+
+      thead {
+
+        th {
+          font-size: 16px;
+
+        }
+      }
+
+      tbody {
+
+        td {
+          font-size: 16px;
+
+        }
+      }
+
+    }
+
+  }
+
+  .vehicle {
+    .filters-accordion {
+      .tab {
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .facility {
+    .form-accordion {
+      .tab {
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+
+
+}

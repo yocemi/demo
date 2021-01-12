@@ -1,0 +1,53 @@
+@media screen and ( min-width: 1200px) {
+
+  header {
+    .free-service {
+      background: $colorNav1;
+      height: 80px;
+      border-radius: 10px 0 0 10px;
+
+      h2 {
+        color: $colorWhite;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5em;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+        padding: 5px 5px 0;
+
+        span {
+          font-weight: 700;
+          font-size: 14px;
+          color: $colorGreen;
+          display: block;
+        }
+      }
+    }
+  }
+
+  #nav-sidebar {
+    right: 200px;
+  }
+
+  #home {
+    .search-form {
+
+      .advanced-search-panel {
+        p {
+            margin-bottom: 15px;
+        }
+      }
+
+      .impact-vehicle {
+        margin-bottom: 25px;
+      }
+
+      .filter-radius {
+        margin-bottom: 5px;
+      }
+    }
+
+  }
+
+}

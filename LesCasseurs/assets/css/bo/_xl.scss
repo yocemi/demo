@@ -1,0 +1,104 @@
+@media screen and ( min-width: 1200px) {
+  #login {
+
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      color: $colorBlack;
+      font-weight: 700;
+      font-size: 30px;
+      margin-top: 15px;
+      margin-bottom: 100px;
+      text-transform: uppercase;
+    }
+
+    #content {
+      padding: 100px 0 0;
+    }
+
+  }
+
+  .dashboard {
+    .panel {
+      .col-null {
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+
+      &.company {
+        .overview {
+
+          > div {
+
+            &::after {
+              display: none;
+            }
+
+            &:nth-child(2n+1) {
+              &::before {
+                display: block;
+              }
+            }
+
+            &:nth-child(4n+1) {
+              &::before {
+                display: none;
+              }
+            }
+
+          }
+        }
+
+        .null {
+          > div {
+            &::after {
+              display: none;
+            }
+
+            &:nth-child(3n+1) {
+              &::before {
+                display: block;
+              }
+            }
+
+            &:nth-child(5n+1) {
+              &::before {
+                display: none;
+              }
+            }
+
+
+          }
+
+        }
+      }
+
+      &.admin {
+        .null {
+          > div {
+            &::after {
+              display: none;
+            }
+
+            &:nth-child(3n+1) {
+              &::before {
+                display: block;
+              }
+            }
+
+            &:nth-child(5n+1) {
+              &::before {
+                display: none;
+              }
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+
+}

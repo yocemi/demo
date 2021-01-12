@@ -1,0 +1,122 @@
+@media screen and ( min-width: 576px) {
+
+  header {
+    height: 50px;
+
+    .logo {
+
+      img {
+        width: 220px;
+      }
+    }
+
+  }
+
+  .navbar-toggler {
+    top: 5px;
+  }
+
+  #main {
+    padding: 50px 0 0 0;
+  }
+
+  .filter-radius {
+
+    .distance {
+
+      > div {
+
+        &:first-child {
+          left: 1%;              ;
+        }
+
+        &:nth-child(2){
+          left: 33%;
+        }
+
+        &:nth-child(3){
+          left: 64%;
+        }
+
+        &:last-child {
+          left: 95%;
+        }
+
+      }
+    }
+
+  }
+
+
+  #home {
+
+    .main-slider {
+
+      &::after{
+        height: 40%;
+      }
+
+      .slide-caption {
+        bottom: 5%;
+
+        .title {
+          font-size: 24px;
+        }
+      }
+
+    }
+
+
+    .search-form {
+
+        .quick-search {
+          .title {
+            span {
+              font-size: 20px;
+
+            }
+          }
+        }
+
+        .advanced-search-panel {
+
+        }
+
+     }
+
+     .pre-footer {
+
+       .news {
+         .item {
+           padding-right: 45px;
+         }
+
+         &::before {
+           content: "";
+           display: block;
+           width: 999px;
+           height: 100%;
+           position: absolute;
+           top: 0;
+           right: 100%;
+           background: $colorWhite;
+           z-index: 0;
+         }
+       }
+
+       .newsletter {
+         background: $colorGreen;
+         padding-top: 15px;
+         padding-left: 60px;
+
+         i {
+           top: calc(50% - 40px);
+           left: -40px;
+         }
+
+       }
+     }
+
+  }
+
+}

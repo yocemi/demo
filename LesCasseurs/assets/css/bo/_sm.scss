@@ -1,0 +1,212 @@
+@media screen and ( min-width: 576px) {
+
+  .craue_formflow_steplist {
+    margin: -4px 0 0 0;
+
+    li {
+      margin: 0 8px;
+      width: 30px;
+      height: 30px;
+      line-height: 28px;
+      font-size: 18px;
+
+      &::after {
+        width: 20px;
+        top: 15px;
+        left: 30px;
+      }
+
+    }
+
+  }
+
+  .pagination {
+    .page-link {
+      font-size: 12px;
+    }
+  }
+
+  .dashboard {
+    .panel {
+      .tile {
+
+      }
+      .null {
+
+        > div {
+
+          &::before {
+            display: block;
+          }
+
+          &:nth-child(2n+1) {
+            &::before {
+              display: none;
+            }
+          }
+
+        }
+      }
+
+
+    }
+
+  }
+
+  table {
+
+    &.list {
+
+      thead {
+
+        th {
+          font-size: 14px;
+
+        }
+      }
+
+      tbody {
+
+        td {
+          font-size: 14px;
+
+          &.actions {
+
+
+          }
+
+
+
+        }
+      }
+
+
+
+    }
+
+    &.company-list {
+      tbody {
+        td {
+          &.active-vehicle {
+
+          }
+
+          &.total-vehicle {
+
+          }
+
+          &.last-invoice {
+
+
+            a {
+              i {
+
+              }
+
+              &:hover {
+
+              }
+            }
+          }
+
+        }
+      }
+    }
+
+    &.vehicle-list {
+      tbody {
+        td {
+
+
+          &.description {
+            font-size: 13px;
+            line-height: 1.2rem;
+
+            .vin {
+
+            }
+
+            .created {
+
+            }
+
+            .indicators {
+
+              span {
+                display: inline-block;
+              }
+
+              i {
+                display: inline-block;
+                margin-right: 10px;
+                vertical-align: middle;
+              }
+
+              .prints {
+
+              }
+
+              .clics {
+                i {
+
+                }
+              }
+
+              .renew {
+                span {
+                  display: inline-block;
+                }
+              }
+
+
+            }
+
+          }
+
+          &.clics {
+            i {
+
+            }
+          }
+
+          &.delete {
+
+            button {
+
+              i {
+
+              }
+            }
+          }
+
+
+        }
+
+        .expired {
+          td {
+
+          }
+
+          .actions {
+
+          }
+        }
+
+      }
+
+
+    }
+  }
+
+  .vehicle {
+    #main {
+      h1 {
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+
+}

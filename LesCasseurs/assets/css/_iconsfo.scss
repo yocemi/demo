@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icons-fo';
+  src:  url('../fonts/icons-fo.eot?y88u3k');
+  src:  url('../fonts/icons-fo.eot?y88u3k#iefix') format('embedded-opentype'),
+    url('../fonts/icons-fo.ttf?y88u3k') format('truetype'),
+    url('../fonts/icons-fo.woff?y88u3k') format('woff'),
+    url('../fonts/icons-fo.svg?y88u3k#icons-fo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons-fo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-CentreVhu:before {
+  content: "\e900";
+}
+.icon-Concept:before {
+  content: "\e901";
+}
+.icon-Localisation:before {
+  content: "\e902";
+}
+.icon-MePrevenir:before {
+  content: "\e903";
+}
+.icon-ModuleRecherche-entete:before {
+  content: "\e904";
+}
+.icon-Newsletter:before {
+  content: "\e905";
+}
+.icon-Recherche:before {
+  content: "\e906";
+}
+.icon-RemplacerVehicule:before {
+  content: "\e907";
+}
+.icon-SyRendre:before {
+  content: "\e908";
+}
+.icon-Telephone:before {
+  content: "\e909";
+}
+.icon-Type-vehicule:before {
+  content: "\e90a";
+}
+.icon-Voiture-PlanImpact:before {
+  content: "\e90b";
+}
+.icon-ZoneImpact:before {
+  content: "\e90c";
+}

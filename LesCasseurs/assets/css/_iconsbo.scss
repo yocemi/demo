@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'icons-bo';
+  src:  url('../fonts/icons-bo.eot?cenm9f');
+  src:  url('../fonts/icons-bo.eot?cenm9f#iefix') format('embedded-opentype'),
+    url('../fonts/icons-bo.ttf?cenm9f') format('truetype'),
+    url('../fonts/icons-bo.woff?cenm9f') format('woff'),
+    url('../fonts/icons-bo.svg?cenm9f#icons-bo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons-bo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ajout-vehicule-noir:before {
+  content: "\e94c";
+}
+.icon-ajout-vehicule-vert:before {
+  content: "\e94d";
+  color: #81d742;
+}
+.icon-ajout-client-noir:before {
+  content: "\e94e";
+}
+.icon-ajout-client-vert:before {
+  content: "\e94f";
+  color: #81d742;
+}
+.icon-deconnexion:before {
+  content: "\e950";
+  color: #f37050;
+}
+.icon-filtres:before {
+  content: "\e951";
+}
+.icon-ajout-client:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-ajouter-contrat:before {
+  content: "\e901";
+  color: #81d742;
+}
+.icon-ajouter-etablissement:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-ajouter-photo:before {
+  content: "\e903";
+  color: #e0e3e8;
+}
+.icon-ajouter-vehicule:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-annonce-desactive .path1:before {
+  content: "\e905";
+  color: rgb(255, 50, 0);
+}
+.icon-annonce-desactive .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-calendrier:before {
+  content: "\e907";
+  color: #959ca6;
+}
+.icon-client:before {
+  content: "\e908";
+  color: #bac3d2;
+}
+.icon-client-hover:before {
+  content: "\e909";
+  color: #81d742;
+}
+.icon-client-plus-clique:before {
+  content: "\e90a";
+}
+.icon-client-plus-vehicule:before {
+  content: "\e90b";
+}
+.icon-close-photo:before {
+  content: "\e90c";
+  color: #bac3d2;
+}
+.icon-close-white:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-configuration:before {
+  content: "\e90e";
+  color: #bac3d2;
+}
+.icon-configuration-bleu:before {
+  content: "\e90f";
+}
+.icon-configuration-hover:before {
+  content: "\e910";
+  color: #81d742;
+}
+.icon-configuration-white:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-connexion:before {
+  content: "\e912";
+}
+.icon-contrat:before {
+  content: "\e913";
+  color: #bac3d2;
+}
+.icon-contrat-hover:before {
+  content: "\e914";
+  color: #81d742;
+}
+.icon-csv:before {
+  content: "\e915";
+  color: #81d742;
+}
+.icon-dernier-client-ajoute:before {
+  content: "\e916";
+}
+.icon-dernier-client-ajout-vehicule:before {
+  content: "\e917";
+}
+.icon-editer:before {
+  content: "\e918";
+}
+.icon-editer-vert:before {
+  content: "\e919";
+  color: #81d742;
+}
+.icon-editer-white:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-edit-vert:before {
+  content: "\e91b";
+  color: #81d742;
+}
+.icon-etablissement:before {
+  content: "\e91c";
+  color: #bac3d2;
+}
+.icon-etablissement-hover:before {
+  content: "\e91d";
+  color: #81d742;
+}
+.icon-facture:before {
+  content: "\e91e";
+  color: #bac3d2;
+}
+.icon-facture-hover:before {
+  content: "\e91f";
+  color: #81d742;
+}
+.icon-gestion-admin:before {
+  content: "\e920";
+  color: #bac3d2;
+}
+.icon-gestion-admin-hover:before {
+  content: "\e921";
+  color: #81d742;
+}
+.icon-gestion-admin-white:before {
+  content: "\e922";
+  color: #fff;
+}
+.icon-gestion-casse:before {
+  content: "\e923";
+  color: #bac3d2;
+}
+.icon-gestion-casse-blanc:before {
+  content: "\e924";
+  color: #fff;
+}
+.icon-gestion-casse-hover:before {
+  content: "\e925";
+  color: #81d742;
+}
+.icon-impact:before {
+  content: "\e926";
+  color: #f37050;
+}
+.icon-impact-none .path1:before {
+  content: "\e927";
+  color: rgb(255, 255, 255);
+}
+.icon-impact-none .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(149, 156, 166);
+}
+.icon-impact-ok .path1:before {
+  content: "\e929";
+  color: rgb(255, 255, 255);
+}
+.icon-impact-ok .path2:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(149, 156, 166);
+}
+.icon-impact-ok .path3:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(243, 112, 80);
+}
+.icon-impact-ok .path4:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(243, 112, 80);
+}
+.icon-impact-ok .path5:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(243, 112, 80);
+}
+.icon-impact-ok .path6:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(243, 112, 80);
+}
+.icon-infos-paiement:before {
+  content: "\e92f";
+  color: #bac3d2;
+}
+.icon-infos-paiement-hover:before {
+  content: "\e930";
+  color: #81d742;
+}
+.icon-mail:before {
+  content: "\e931";
+}
+.icon-mon-compte:before {
+  content: "\e932";
+  color: #bac3d2;
+}
+.icon-mon-compte-hover:before {
+  content: "\e933";
+  color: #81d742;
+}
+.icon-nombre-clic:before {
+  content: "\e934";
+}
+.icon-nombre-contact:before {
+  content: "\e935";
+}
+.icon-nombre-vehicule:before {
+  content: "\e936";
+}
+.icon-nombre-vehicule-vu:before {
+  content: "\e937";
+}
+.icon-notification:before {
+  content: "\e938";
+  color: #fff;
+}
+.icon-notification-alerte:before {
+  content: "\e939";
+  color: #f37050;
+}
+.icon-notification-facture:before {
+  content: "\e93a";
+  color: #81d742;
+}
+.icon-password:before {
+  content: "\e93b";
+}
+.icon-pdf:before {
+  content: "\e93c";
+  color: #f37050;
+}
+.icon-renouveler-annonce:before {
+  content: "\e93d";
+}
+.icon-renouveler-annonce-rouge:before {
+  content: "\e93e";
+  color: #f37050;
+}
+.icon-search:before {
+  content: "\e93f";
+  color: #fff;
+}
+.icon-search-bleu:before {
+  content: "\e940";
+}
+.icon-supprimer:before {
+  content: "\e941";
+}
+.icon-supprimer-red:before {
+  content: "\e942";
+  color: #f37050;
+}
+.icon-tableau-bord:before {
+  content: "\e943";
+  color: #bac3d2;
+}
+.icon-tableau-bord-hover:before {
+  content: "\e944";
+  color: #81d742;
+}
+.icon-tri-colonne:before {
+  content: "\e945";
+  color: #fff;
+}
+.icon-valider:before {
+  content: "\e946";
+  color: #81d742;
+}
+.icon-vehicule:before {
+  content: "\e947";
+  color: #bac3d2;
+}
+.icon-vehicule-hover:before {
+  content: "\e948";
+  color: #81d742;
+}
+.icon-vehicule-plus-recherche:before {
+  content: "\e949";
+}
+.icon-visualiser:before {
+  content: "\e94a";
+}
+.icon-visualiser-jaune:before {
+  content: "\e94b";
+  color: #f6b822;
+}
